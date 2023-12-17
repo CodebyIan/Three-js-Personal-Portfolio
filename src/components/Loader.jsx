@@ -1,5 +1,7 @@
+// Imports
 import { Html, useProgress } from "@react-three/drei";
 
+// Show Loading Progress Before 3D Model Loads
 const Loader = () => {
   const { progress } = useProgress();
 
@@ -20,4 +22,5 @@ const Loader = () => {
   );
 };
 
+// Export
 export default Loader;
