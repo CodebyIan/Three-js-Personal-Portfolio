@@ -1,3 +1,4 @@
+// Imports
 import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
@@ -34,7 +35,7 @@ const About = () => {
     <>
       {/* About Heading */}
       <motion.div variants={textVariant()}>
-        {/* <p className={styles.sectionSubText}>About.</p> */}
+        <p className={styles.sectionSubText}>Overview</p>
         <h2 className={styles.sectionHeadText}>About Me.</h2>
       </motion.div>
 
