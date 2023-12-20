@@ -5,7 +5,7 @@ import {
   About,
   Experience,
   Tech,
-  Works,
+  Projects,
   Feedbacks,
   Contact,
   StarsCanvas,
@@ -24,6 +24,7 @@ const App = () => {
           <About />
           <Experience />
           <Tech />
+          <Projects />
         </div>
       </div>
     </BrowserRouter>

@@ -1,8 +1,10 @@
 import {
-  mobile,
+  designer,
+  frontend,
   backend,
-  creator,
-  web,
+  backend_icon,
+  frontend_icon,
+  designer_icon,
   javascript,
   typescript,
   html,
@@ -15,14 +17,9 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  restaurant,
+  pixxar,
+  weather,
 } from "../assets";
 
 export const navLinks = [
@@ -31,8 +28,8 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "experience",
+    title: "Experience",
   },
   {
     id: "tech",
@@ -43,6 +40,10 @@ export const navLinks = [
     title: "Projects",
   },
   {
+    id: "testimonials",
+    title: "Testimonials",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -50,20 +51,16 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web 3.0 Developer",
-    icon: web,
-  },
-  {
     title: "Web Designer",
-    icon: mobile,
+    icon: designer,
   },
   {
     title: "Frontend Developer",
-    icon: backend,
+    icon: frontend,
   },
   {
     title: "Backend Developer",
-    icon: creator,
+    icon: backend,
   },
 ];
 
@@ -120,55 +117,45 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Frontend Developer",
+    work_type: "Freelancer",
+    icon: frontend_icon,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Date: 2016 - 2018",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Started with mastering HTML and CSS, laying the foundation for structuring content and styling in web development.",
+      "Progressed to JavaScript to introduce dynamic behavior, enhancing my skills in interactive frontend development.",
+      "Explored frameworks like React to build modular and efficient user interfaces, deepening my understanding of frontend technologies.",
+      "Actively engaged in coding communities, seeking mentorship and leveraging collective knowledge to overcome challenges.",
+      "Fueled by a continuous learning mindset and passion for crafting engaging user experiences, I am on an evolving journey as a frontend developer.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Backend Developer",
+    work_type: "Freelancer",
+    icon: backend_icon,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Date: 2019 - 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Initiated my backend web development journey by grasping core concepts such as server-side scripting and databases.",
+      "Expanded my skills in server-side languages like Node.js, learning to handle server logic and data interactions.",
+      "Dived into database management systems such as MongoDB and SQL, understanding how to store and retrieve data efficiently.",
+      "Explored frameworks like Express.js to streamline backend development processes and enhance scalability.",
+      "Actively participated in online communities, seeking guidance and collaborating with peers to navigate challenges in backend development.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Web Designer",
+    work_type: "Freelancer",
+    icon: designer_icon,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Date 2022 - 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Commenced my web design journey by studying principles of UI/UX, emphasizing aesthetics and user-centric design.",
+      "Gained proficiency in graphic design tools like Adobe XD and Figma, translating creative concepts into visually appealing mockups.",
+      "Explored responsive design techniques, ensuring seamless user experiences across various devices and screen sizes.",
+      "Acquired knowledge of typography, color theory, and layout, refining my ability to create visually cohesive and engaging designs.",
+      "Engaged with design communities, actively seeking feedback and staying updated on industry trends to continually elevate my web design skills.",
     ],
   },
 ];
@@ -200,70 +187,73 @@ const testimonials = [
   },
 ];
 
-const projects = [
+const myProjects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "Restaurant",
+    description: "Grilli is online restaurant web app developed by ©CodebyIan.",
     tags: [
       {
-        name: "react",
+        name: "HTML5",
+        color: "red-text-gradient",
+      },
+      {
+        name: "CSS3",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "Javascript",
+        color: "yellow-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: restaurant,
+    source_code_link:
+      "https://github.com/CodebyIan/Grilli_Online_Restaurant_Website",
+    web_link: "https://grilli-online-restaurant.netlify.app/",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "Pixxar",
+    description: "Pixxar is a stock media web app eloped by ©CodebyIan.",
     tags: [
       {
-        name: "react",
+        name: "HTML5",
+        color: "red-text-gradient",
+      },
+      {
+        name: "CSS3",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "Javascript",
+        color: "yellow-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: pixxar,
+
+    source_code_link: "https://github.com/CodebyIan/Photo_Stock_Media_Platform",
+    web_link: "https://pixxar-media.netlify.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Weather",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Weatherio is a weather forecast web app developed by ©CodebyIan.",
     tags: [
       {
-        name: "nextjs",
+        name: "HTML5",
+        color: "red-text-gradient",
+      },
+      {
+        name: "CSS3",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "Javascript",
+        color: "yellow-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: weather,
+    source_code_link: "https://github.com/CodebyIan/Weather_Forecast_Website",
+    web_link: "https://weatherio-forecast.netlify.app/#/current-location",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, myProjects };

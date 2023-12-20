@@ -21,7 +21,7 @@ const ExperienceCard = ({ experience }) => (
       <div className="flex justify-center items-center w-full h-full">
         <img
           src={experience.icon}
-          alt={experience.company_name}
+          alt={experience.work_type}
           className="w-[490%] h-[60%] object-contain"
         />
       </div>
@@ -34,7 +34,7 @@ const ExperienceCard = ({ experience }) => (
         className="text-secondary text-[16px] font-semibold"
         style={{ margin: 0 }}
       >
-        {experience.company_name}
+        {experience.work_type}
       </p>
     </div>
 
@@ -57,8 +57,8 @@ const Experience = () => {
     <>
       {/* Experience Headings */}
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Some Of My Projects</p>
-        <h2 className={styles.sectionHeadText}>Work Experience.</h2>
+        <p className={styles.sectionSubText}>My Roadmap</p>
+        <h2 className={styles.sectionHeadText}>Work Journey.</h2>
       </motion.div>
 
       <div className="mt-20 flex flex-col">
@@ -73,4 +73,4 @@ const Experience = () => {
 };
 
 // Export
-export default SectionWrapper(Experience, "work");
+export default SectionWrapper(Experience, "experience");

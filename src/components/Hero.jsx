@@ -29,7 +29,9 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             A FullStack Web 3.0{" "}
             <span className="text-[#915eff]"> Designer</span> &{" "}
-            <span className="text-[#915eff]">Developer</span>.
+            <span className="text-[#915eff]">Developer</span>.{" "}
+            <br className="sm:hidden" /> Let's Design, Develop & Deploy
+            Innovative Websites Together!
           </p>
         </div>
       </div>

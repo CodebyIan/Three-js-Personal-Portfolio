@@ -37,7 +37,7 @@ const Navbar = () => {
         </Link>
 
         {/* Big Screen Navigation Bar */}
-        <ul className="list-none hidden sm:flex flex-row gap-10">
+        <ul className="list-none hidden xl:flex flex-row gap-10">
           {navLinks.map((navLink) => (
             <li
               key={navLink.id}
@@ -52,7 +52,7 @@ const Navbar = () => {
         </ul>
 
         {/* Small Screen Navigation Bar */}
-        <div className="sm:hidden flex flex-1 justify-end items-center">
+        <div className="xl:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}
             alt="menu"

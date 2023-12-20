@@ -1,9 +1,9 @@
 import logo from "./logo.svg";
+import designer from "./designer.png";
 import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
+import frontend from "./frontend.png";
 import github from "./github.png";
+import globe from "./globe.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -19,24 +19,22 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import designer_icon from "./timeline/designer_icon.png";
+import frontend_icon from "./timeline/frontend_icon.png";
+import backend_icon from "./timeline/backend_icon.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import restaurant from "./restaurant.jpg";
+import pixxar from "./pixxar.jpg";
+import weather from "./weather.jpg";
 
 export {
   logo,
+  designer,
+  frontend,
   backend,
-  creator,
-  mobile,
-  web,
   github,
+  globe,
   menu,
   close,
   css,
@@ -51,12 +49,10 @@ export {
   redux,
   tailwind,
   typescript,
-  threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  restaurant,
+  pixxar,
+  weather,
+  designer_icon,
+  frontend_icon,
+  backend_icon,
 };
