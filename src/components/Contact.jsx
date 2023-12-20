@@ -104,7 +104,7 @@ const Contact = () => {
               name="message"
               value={form.message}
               onChange={handleChange}
-              placeholder="What do you want to say?"
+              placeholder="How can i help?"
               className="bh-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium  resize-none"
             />
           </label>
@@ -120,7 +120,7 @@ const Contact = () => {
 
         <p className="text-center">
           Developed By <span className="blue-text-gradient">CodebyIan </span>.{" "}
-          <br /> Copyright © 2024, All Rights Reserved
+          <br /> Copyright © 2024, All Rights Reserved.
         </p>
       </motion.div>
 
