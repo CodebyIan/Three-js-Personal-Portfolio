@@ -6,7 +6,7 @@ import {
   Experience,
   Tech,
   Projects,
-  Feedbacks,
+  Testimonials,
   Contact,
   StarsCanvas,
 } from "./components";
@@ -25,6 +25,7 @@ const App = () => {
           <Experience />
           <Tech />
           <Projects />
+          <Testimonials />
         </div>
       </div>
     </BrowserRouter>

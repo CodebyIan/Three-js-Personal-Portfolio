@@ -102,8 +102,8 @@ const Projects = () => {
 
       {/* Map Over Projects */}
       <div className="mt-20 flex flex-wrap gap-7">
-        {myProjects.map((myProjects, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...myProjects} />
+        {myProjects.map((project, index) => (
+          <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
     </>
@@ -111,4 +111,4 @@ const Projects = () => {
 };
 
 // Export
-export default SectionWrapper(Projects, "project");
+export default SectionWrapper(Projects, "projects");
